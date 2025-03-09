@@ -1,0 +1,140 @@
+body {
+    background-image: url(./assets/9963022.jpg);
+    background-size: cover;
+    background-position: 1px 0px 0px 100px;
+    background-repeat: no-repeat;
+    font-family: Poppins;    
+}
+.login-form form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+     position: relative;
+     width: 400px;
+     height: 440px;
+     border: 2px solid rgba(86, 86, 86, 0.5);
+     margin-left: 37%;
+     backdrop-filter: blur(50px);
+     box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+     margin-top: 10%;
+     border-radius: 8px;
+    background: transparent;
+}
+
+.inputs-1 img{
+    width: 50px;
+    height: 20px;
+    margin-top: -20px;
+    transform: translateX(260%);
+}
+.inputs-2 img{
+    width: 50px;
+    height: 20px;
+    margin-top: -20px;
+    margin-left: 100px;
+      transform: translateX(20%);
+}
+
+.inputs-1 {
+    border-bottom: 2px solid #162938;
+    width: 300px;
+    margin-left: 40px;
+    align-items: center;
+    display: flex;
+}
+.inputs-2 {
+    border-bottom: 2px solid #162938;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 40px;
+    align-items: center;
+    display: flex;
+}
+.inputs-1 input{
+    /* background: transparent;
+    border: none;
+    font-family: poppins;
+    margin-top: -20px; */
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: poppins;
+}
+.inputs-2 input{
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: poppins;
+}
+
+.abcd{
+    margin-top: 20px;
+    display: flex;
+    gap: 90px;
+}
+.abcd a{
+    text-decoration: none;
+    color: black;
+}
+
+.inputs-1 label{
+    position: relative;
+    transform: translateX(-260%);
+    font-size:1em;
+    color: #162938;
+    font-weight: 400;
+    pointer-events: none;
+    margin-top: -5px;
+    transition: 0.5s;
+}
+
+.inputs-2 label{
+    position: relative;
+    transform: translateX(-370%);
+    font-size:1em;
+    color: #162938;
+    font-weight: 400;
+    pointer-events: none;
+    margin-top: -5px;
+    transition: .5s;
+}
+
+.inputs-1 input:focus~label,
+.inputs-1 input:valid~label{
+top:-20px;
+}
+
+.inputs-2 input:focus~label,
+.inputs-2 input:valid~label{
+top:-20px;
+}
+
+.login-form button{
+    position: relative;
+    left: 35px;
+    width: 80%;
+    height: 45px;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+    font-family: poppins;
+}
+.login-form button:hover{
+    transition: 0.5s;
+    background-color: #b12929;
+    
+    transform: scale(1.1);
+}
+#show-password{
+    background: transparent;
+    transform: translateX(-800%);
+    cursor: pointer;
+}
